@@ -43,7 +43,7 @@ ClassMethod installGitNamespace(name As %String, listePackage As %ListOfDataType
 	SET $NAMESPACE=name
     
     //zpm "install git-for-iris"
-	zpm "load https://github.com/MattCGI/git-for-iris.git"
+	zpm "load https://github.com/ArchiMatt/git-for-iris.git"
     do ##class(SourceControl.Git.Utils).AddDefaultSettings()
 
     set nextPackage = 0
@@ -66,7 +66,7 @@ ClassMethod installGit() As %Status
     NEW $NAMESPACE
 	SET $NAMESPACE="%SYS"
     
-    zpm "load https://github.com/MattCGI/git-for-iris.git"
+    zpm "load https://github.com/ArchiMatt/git-for-iris.git"
 
     return $$$OK
 }
