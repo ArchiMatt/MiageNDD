@@ -11,7 +11,7 @@ XData setup
       <Database Name="ESB" Dir="/databases/ESB" Create="yes"/>
     </Configuration>
   <Import File="${SourceDir}" Flags="ck" Recurse="1"/>
-	<Production Name="esb.Production.ProductionCommande" AutoStart="1" />
+	<Production Name="esb.Production.ProductionESB" AutoStart="1" />
   </Namespace>
 </Manifest>
 }
