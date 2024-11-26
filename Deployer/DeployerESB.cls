@@ -9,7 +9,7 @@ XData setup
 
   <Namespace Name="ESB" Code="ESB" Data="ESB" Create="no" Ensemble="1">
     <Import File="${SourceDir}" Flags="ck" Recurse="1"/>
-	<Production Name="esb.Production.ProductionCommande"   AutoStart="1" />
+	<Production Name="esb.Production.ProductionESB"   AutoStart="1" />
   </Namespace>
 </Manifest>
 }
