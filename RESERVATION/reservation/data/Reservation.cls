@@ -1,4 +1,4 @@
-Class data.Reservation Extends %Persistent
+Class reservation.data.Reservation Extends %Persistent
 {
 
 Storage Default
